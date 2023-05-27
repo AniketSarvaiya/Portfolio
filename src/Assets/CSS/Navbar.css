@@ -1,0 +1,32 @@
+.navbar {
+    justify-content: flex-start;
+  }
+.navbar-toggler {
+    transition: transform 0.8s ease;
+}
+.collapsed {
+    transition: transform 0.8s ease;
+    transform: rotate(90deg);
+}
+.navbar-toggler,
+a.navbar-brand{
+    color: var(--navbar-text);
+}
+
+.navbarheader{
+    background-color: var(--navbar-background);
+    color: var(--navbar-text);
+}
+.navbar-nav .nav-item.active .nav-link{
+    color: #6457BE;
+}
+.nav-link{
+    color: var(--navbar-text);
+}
+.nav-link:hover,
+i.mode:hover{
+    color: #6457BE;
+}
+a.navbar-brand:hover{
+    color: var(--navbar-text);
+}
