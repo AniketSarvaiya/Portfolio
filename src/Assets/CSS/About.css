@@ -1,0 +1,56 @@
+/* section{
+    padding: 4rem 0 6rem;
+} */
+.about_button .download_button{
+    text-decoration: none;
+    color: white;
+}
+.about_title{
+    color: var(--navbar-text);
+}
+.about_subtitle{
+    color:var(--subtitle)
+}
+.about_description{
+    color: var(--description);
+    margin-bottom: 80px;    
+}
+.about_main{
+    padding: 4rem 0 4rem;   
+}
+.about_image{
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+}
+.about_button{
+    cursor: pointer;
+    width: 240px;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--diff-color);
+
+}
+.about_button:hover{
+    background-color: var(--home-button-hover);
+}
+
+@media only screen and (max-width : 992px) {
+    .about_description{
+        padding: 50px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width : 220px)
+{    
+    .about_description{
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+}

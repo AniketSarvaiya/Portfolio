@@ -3,12 +3,25 @@
   --navbar-background : #1A1525;
   --navbar-text:#FCFBFF;
   --navbar-text-color : #FCFBFF;
+  --diff-color: #6457BE;
+  --description:#ada9a9;
+  --subtitle:#bcb6b6;
+  --home-button-hover:#7869ce;
+  --scroll-navbar-shadow: #e2e0e039;
+  /* --skill-bar-background:#bab3ea; */
+  --skill-bar-background:#bdb7e2;
 }
 .light-theam{
   --main-backgroung: #FCFBFF;
   --navbar-background :#FCFBFF ;
   --navbar-text:#1A1525;
   --navbar-text-color : #FCFBFF;
+  --diff-color: #6457BE;
+  --description:#808080;
+  --subtitle:#686666; 
+  --home-button-hover:#7869ce;
+  --scroll-navbar-shadow: #1A00000F;
+  --skill-bar-background:#bdb7e2;
 }
 
 body{

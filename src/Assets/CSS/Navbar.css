@@ -1,8 +1,14 @@
 .navbar {
     justify-content: flex-start;
+    background-color: var(--navbar-background);
+    transition: box-shadow 0.3s ease;
+  }  
+  .scrolled {
+    box-shadow: 0 2px 4px var(--scroll-navbar-shadow);
   }
 .navbar-toggler {
     transition: transform 0.8s ease;
+    /* background-color: transparent; */
 }
 .collapsed {
     transition: transform 0.8s ease;
@@ -18,15 +24,18 @@ a.navbar-brand{
     color: var(--navbar-text);
 }
 .navbar-nav .nav-item.active .nav-link{
-    color: #6457BE;
+    color: var(--diff-color);
 }
 .nav-link{
     color: var(--navbar-text);
 }
 .nav-link:hover,
 i.mode:hover{
-    color: #6457BE;
+    color: var(--diff-color);
 }
 a.navbar-brand:hover{
     color: var(--navbar-text);
+}
+.navbar-toggler:hover{
+    background-color: transparent;
 }

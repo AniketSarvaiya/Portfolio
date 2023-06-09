@@ -1,0 +1,109 @@
+
+/* section{
+    padding: 4rem 0 6rem;
+} */
+.skill_container{
+    /* height: min-content; */
+    /* border: 1px solid var(--skill-bar-background);
+    padding: 10px;
+    border-radius: 20px; */
+}
+.skill_header{
+    margin-bottom: 3rem;
+}
+.skill_main_title{
+    color: var(--navbar-text);
+}
+.skill_title{
+    color: var(--navbar-text);
+}
+.header_skill_icon{
+    color: var(--diff-color);
+}
+.skill_subtitle{
+    color: var(--subtitle);
+}
+.skill_number{
+    color: var(--subtitle);
+}
+.skill_icon{
+    color: var(--diff-color);
+}
+.skill_title{
+    display: flex;
+    justify-content: space-between;
+}
+.skill_bar,
+.skill_percentage{
+    height: 5px;
+    border-radius: 0.5rem;
+}
+
+.skill_bar{
+    background-color: var(--skill-bar-background);
+    /* background-color:  #bab3ea; */
+}
+
+.skill_percentage{
+    display: block;
+    background-color: var(--diff-color);
+}
+
+.skill_html{
+    width: 80%;
+}
+.skill_css{
+    width: 80%;
+}
+.skill_javascript{
+    width: 70%;
+}
+.skill_react{
+    width: 80%;
+}
+
+.skill_expressjs{
+    width: 60%;
+}
+.skill_nodejs{
+    width: 70%;
+}
+.skill_mongodb{
+    width: 80%;
+}
+.skill_flutter{
+    width:60%;
+}
+.skill_dart{
+    width: 60%;
+}
+.skill_firebase
+{
+    width: 70%;
+}
+.skill_vscode{
+    width: 80%;
+}
+.skill_androidstudio{
+    width: 70;
+}
+.skill_list{
+transition: max-height 1.5s ease;
+}
+
+.skill_close .skill_list{
+    height: 0;
+    /* height: max-content; */
+    width: 0;
+    overflow: hidden;
+}
+
+.skill_open .skill_list{
+    height: max-content;
+    margin-bottom: 2.5rem;
+}
+.skill_open .skill_icon{
+    transform: rotate(-180deg);
+}
+
+

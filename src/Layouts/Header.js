@@ -5,6 +5,19 @@ function Header() {
     const [open, setOpen] = useState(false);
     const [theam, setTheam] = useState("light-theam");
     const [activeLink, setActive] = useState("home");
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 0;
+            setScrolled(isScrolled);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const togglemode = () => {
         if (theam === "light-theam")
@@ -26,14 +39,14 @@ function Header() {
     return (
         <>
             <header className='py-3 border-1 navbarheader'>
-                <nav className="navbar navbar-expand-lg">
+                <nav className={`navbar fixed-top navbar-expand-lg ${scrolled ? 'scrolled' : ''} py-3`}>
                     <div className="container">
                         <a className="navbar-brand fw-bold">Aniket Sarvaiya</a>
                         {<span className="theam-mode d-lg-none">
                             {theam === "dark-theam" ? <i className="uil uil-sun fs-4 mode" onClick={() => { togglemode() }}></i> : <i className="uil uil-moon fs-5 mode" onClick={() => { togglemode() }}></i>}
                         </span>}
                         <button
-                            className={`navbar-toggler  border-0 shadow-none ${open ? '' : 'collapsed'}`}
+                            className={`navbar-toggler bg-none border-0 shadow-none ${open ? '' : 'collapsed'}`}
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarNav"
                             aria-controls="navbarNav"
