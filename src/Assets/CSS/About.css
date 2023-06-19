@@ -23,6 +23,9 @@
     height: 300px;
     border-radius: 10px;
 }
+.about_image_container{
+    overflow: auto;
+}
 .about_button{
     cursor: pointer;
     width: 240px;

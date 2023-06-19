@@ -5,6 +5,8 @@ import About from '../Pages/About'
 import Skills from '../Pages/Skills'
 import Quialification from '../Pages/Quialification'
 import Portfolio from '../Pages/Portfolio'
+import ContactMe from '../Pages/ContactMe'
+import Footer from './Footer'
 
 function Hero() {
     return (
@@ -15,6 +17,8 @@ function Hero() {
             <Skills />
             <Quialification />
             <Portfolio />
+            <ContactMe />
+            <Footer />
         </>
     )
 }

@@ -7,10 +7,10 @@ import { Row } from 'react-bootstrap'
 
 function Portfolio() {
     return (
-        <section className='portfolio_section'>
+        <section className='portfolio_section' id='portfolio'>
 
-            <div className="container">
-                <div className='text-center mt-5 mb-5'>
+            <div className="container portfolio_container mt-5">
+                <div className='portfolio_header text-center'>
                     <h2 className='portfolio_title fw-bold'>Portfolio</h2>
                     <span className='portfolio_subtitle fw-bold'>Most recent work</span>
                 </div>

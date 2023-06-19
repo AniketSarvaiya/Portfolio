@@ -3,7 +3,7 @@ import '../Assets/CSS/Qualification.css'
 
 function Quialification() {
     return (
-        <section className="quialification section">
+        <section className="quialification section" id='qualification'>
             <div className="container">
                 <div className=" text-center mt-5">
                     <h2 className="qualification_title fw-bold">Qualification</h2>
@@ -82,7 +82,7 @@ function Quialification() {
                         <div>
 
                             <div className="quialification_title fw-bold fs-4">S.S.C</div>
-                            <span className="qualification_subtitle fw-bold ">Sadhna Vidhyabhavan-GSEB</span>
+                            <span className="qualification_subtitle fw-bold ">Sadhna Vidhya bhavan-GSEB</span>
                             <div className="qualification_calander">
                                 <i className="uil uil-calendar-alt qualification_icon fw-bold pe-2"></i>
                                 <span className="qualification_calander">

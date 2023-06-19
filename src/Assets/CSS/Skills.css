@@ -4,9 +4,7 @@
 } */
 .skill_container{
     /* height: min-content; */
-    /* border: 1px solid var(--skill-bar-background);
-    padding: 10px;
-    border-radius: 20px; */
+    cursor: pointer;
 }
 .skill_header{
     margin-bottom: 3rem;
@@ -85,7 +83,7 @@
     width: 80%;
 }
 .skill_androidstudio{
-    width: 70;
+    width: 70%;
 }
 .skill_list{
 transition: max-height 1.5s ease;
@@ -103,7 +101,14 @@ transition: max-height 1.5s ease;
     margin-bottom: 2.5rem;
 }
 .skill_open .skill_icon{
+    /* transform: rotate(-180deg); */
+    transition: transform 0.8s ease;
     transform: rotate(-180deg);
 }
+.skill_close .skill_icon{
+    transition: transform 0.5s ease;
+    transform: rotate(0deg);
+}
+
 
 

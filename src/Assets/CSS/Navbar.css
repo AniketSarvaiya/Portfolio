@@ -39,3 +39,7 @@ a.navbar-brand:hover{
 .navbar-toggler:hover{
     background-color: transparent;
 }
+
+.navbar-brand{
+    cursor: pointer;
+}

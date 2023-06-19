@@ -1,5 +1,5 @@
 .dark-theam{
-  --main-backgroung: #1A1525;
+  --main-background: #1A1525;
   --navbar-background : #1A1525;
   --navbar-text:#FCFBFF;
   --navbar-text-color : #FCFBFF;
@@ -10,9 +10,11 @@
   --scroll-navbar-shadow: #e2e0e039;
   /* --skill-bar-background:#bab3ea; */
   --skill-bar-background:#bdb7e2;
+  --home-social-icon:#bdb7e2;
+  --input-background-color :#EFEFFE;
 }
 .light-theam{
-  --main-backgroung: #FCFBFF;
+  --main-background: #FCFBFF;
   --navbar-background :#FCFBFF ;
   --navbar-text:#1A1525;
   --navbar-text-color : #FCFBFF;
@@ -22,8 +24,11 @@
   --home-button-hover:#7869ce;
   --scroll-navbar-shadow: #1A00000F;
   --skill-bar-background:#bdb7e2;
+  --home-social-icon:#1800a2;
+  --input-background-color :#EFEFFE;
 }
 
 body{
-  background-color: var(--main-backgroung);
+  background-color: var(--main-background);
+
 }

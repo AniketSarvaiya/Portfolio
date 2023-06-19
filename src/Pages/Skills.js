@@ -201,13 +201,13 @@ function Skills() {
                     </div> */}
                     <Row className='px-md-5'>
                         <Col lg={6} >
-                            <div className={`skill_container ${frontEnd ? 'skill_open' : 'skill_close'} m-0 mx-2 my-4`}>
+                            <div className={`skill_container ${frontEnd ? 'skill_open' : 'skill_close'}  mx-2 my-2`} onClick={frontendtoggler}>
                                 <div className="skill_header d-flex justify-content-evenly">
                                     <i className="uil uil-brackets-curly header_skill_icon fw-bold fs-2 my-auto"></i>
                                     <div className="my-auto text-center">
                                         <h4 className="skill_title fw-bold px-3 my-auto">Frontend Developer</h4>
                                     </div>
-                                    <i className="uil uil-angle-down skill_icon fw-bold fs-2 my-auto" onClick={frontendtoggler}></i>
+                                    <i className="uil uil-angle-down skill_icon fw-bold fs-2 my-auto" ></i>
                                 </div>
                                 <div className="skill_list px-5">
                                     <div className="skill_data my-3">
@@ -255,7 +255,7 @@ function Skills() {
                                 <div className="skill_header d-flex justify-content-evenly" onClick={backEndtoggler}>
 
                                     <i className="uil uil-server header_skill_icon fw-bold fs-2 my-auto"></i>
-                                    <div className='my-auto'>
+                                    <div className='my-auto text-center'>
                                         <h4 className="skill_title fw-bold px-3 my-auto">Backend Developer</h4>
                                     </div>
                                     <i className="uil uil-angle-down skill_icon fw-bold fs-2 my-auto"></i>
@@ -294,7 +294,7 @@ function Skills() {
                             <div className={`skill_container ${other ? 'skill_open' : 'skill_close'} m-0 mx-2 my-4`}>
                                 <div className="skill_header d-flex justify-content-evenly" onClick={othertoggler}>
                                     <i className="uil uil-arrow header_skill_icon fw-bold fs-2 my-auto"></i>
-                                    <div className='my-auto'>
+                                    <div className='my-auto text-center'>
                                         <h4 className="skill_title fw-bold px-3 my-auto">Other Technologies</h4>
                                     </div>
                                     <i className="uil uil-angle-down skill_icon fw-bold fs-2 my-auto"></i>
